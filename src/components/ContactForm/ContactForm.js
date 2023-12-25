@@ -7,7 +7,7 @@ import {
   ErrorMessage,
 } from './ContactForm.styled';
 import { useDispatch, useSelector } from 'react-redux';
-import { addContact, getContacts } from 'redux/contactsSlice';
+import { addContact, getContacts } from '../../redux/contactsSlice';
 import * as Yup from 'yup';
 
 const contactSchema = Yup.object().shape({

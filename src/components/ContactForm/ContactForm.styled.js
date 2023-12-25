@@ -16,7 +16,7 @@ export const Form = styled(FormikForm)`
   box-shadow: rgb(0 0 0 / 20%) 0px 3px 3px -2px,
     rgb(0 0 0 / 14%) 0px 3px 4px 0px, rgb(0 0 0 / 12%) 0px 1px 8px 0px;
   border-radius: 8px;
-  background-color: #fbeef5;
+  background-color: #FEECE0 ;
 `;
 export const StyledLabel = styled.label`
   display: flex;
@@ -26,14 +26,14 @@ export const StyledLabel = styled.label`
 
 export const Field = styled(FormikField)`
   font-size: 16px;
-  border: 1px solid #f79dcf;
+  border: 1px solid #F0741D  ;
   border-radius: 4px;
   outline: none;
   padding: 8px;
 `;
 
 export const FormButton = styled.button`
-  background-color: #f79dcf;
+  background-color: #F0741D ;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -46,10 +46,10 @@ export const FormButton = styled.button`
     rgb(0 0 0 / 14%) 0px 3px 4px 0px, rgb(0 0 0 / 12%) 0px 1px 8px 0px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover {
-    background-color: #f76cb9;
+    background-color: #E45F03 ;
   }
 `;
 export const ErrorMessage = styled(FormikError)`
   font-size: 14;
-  color: #f76cb9;
+  color: #D15803;
 `;
