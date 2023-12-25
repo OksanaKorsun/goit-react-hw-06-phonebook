@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 // redux persist locale storage
 const filterInitialState = '';
-const filterSlice = createSlice({
+export const filterSlice = createSlice({
     name: 'filter',
     initialState: filterInitialState,
     reducers: {
@@ -12,3 +12,5 @@ const filterSlice = createSlice({
 });
 export const { setFilter } = filterSlice.actions;
 export const filterReducer = filterSlice.reducer;
+//selector
+export const getFilter = (state) => state.filter;
