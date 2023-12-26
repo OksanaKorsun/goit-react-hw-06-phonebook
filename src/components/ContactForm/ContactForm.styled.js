@@ -26,14 +26,14 @@ export const StyledLabel = styled.label`
 
 export const Field = styled(FormikField)`
   font-size: 16px;
-  border: 1px solid rgb(240, 116, 29);
+  border: 1px solid #f5904d;
   border-radius: 4px;
   outline: none;
   padding: 8px;
 `;
 
 export const FormButton = styled.button`
-  background-color: rgb(240, 116, 29);
+  background-color: #f5904d;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -46,7 +46,7 @@ export const FormButton = styled.button`
     rgb(0 0 0 / 14%) 0px 3px 4px 0px, rgb(0 0 0 / 12%) 0px 1px 8px 0px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover {
-    background-color: #EE6206;
+    background-color: #f8731c;
   }
 `;
 export const ErrorMessage = styled(FormikError)`
