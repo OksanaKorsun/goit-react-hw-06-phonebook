@@ -13,7 +13,7 @@ export const App = () => {
       <Title>Phonebook</Title>
       <ContactForm />
       <h2>Contacts</h2>
-      {contacts.length > 0 && <Filter />}
+      {contacts.length > 0 ? <Filter /> : <p>You don't have any contacts</p>}
       <ContactList />
       <GlobalStyle />
     </Container>

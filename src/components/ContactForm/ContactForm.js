@@ -1,4 +1,5 @@
 import { Formik } from 'formik';
+import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import {
   Form,
   StyledLabel,
@@ -31,7 +32,7 @@ export const ContactForm = () => {
     );
 
     if (checkContact) {
-      alert(`${values.name} is already in contacts.`);
+      Notify.warning(`${values.name} is already in contacts.`);
       return;
     }
     dispatch(addContact(values));
